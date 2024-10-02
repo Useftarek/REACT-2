@@ -1,0 +1,41 @@
+.login_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block:2em;
+    padding-inline: 3em;
+    & h1 {
+        color : #2A323B;
+        font-weight: 500;
+        font-size: 40px;
+        
+    }
+}
+
+.btn {
+    background-color: #2d3339;   
+    color: white; 
+    border: none;
+    border-radius: 20px; 
+    padding: 10px 40px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 44px;
+    color: #2A3238;
+    
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
